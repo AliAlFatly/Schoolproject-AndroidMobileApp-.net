@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.AddPlan">
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="Weight loss" >
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid BackgroundColor="White" Grid.Row="1" Grid.ColumnSpan="5" Padding="0" >
+                <!--
+                <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" x:Name="2WLP1PN" Text="Plan name:"  TextColor="Aqua" FontSize="24" Margin="5,20,0,0" />
+                <Entry Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3" x:Name="2WP1PN"  FontSize="24" Margin="0,5,0,0" />
+                -->
+                <!--Name-->
+                <Label Text="Name" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+                </Label>
+                <Button Text="?" Grid.Row="0" Grid.Column="1" Clicked="InfoBtnName_OC" />
+                <Entry Text="{Binding cNam}" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3"/>
+                <!--Weight-->
+                <Label Text="Weight" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+                </Label>
+                <Button Text="?" Grid.Row="1" Grid.Column="1" Clicked="InfoBtnWeight_OC" />
+                <Entry Text="{Binding cW}" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="3" Keyboard="Numeric" />
+                <!--Height-->
+                <Label Text="Height" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                </Label>
+                <Button Text="?" Grid.Row="2" Grid.Column="1" Clicked="InfoBtnHeight_OC" />
+                <Entry Text="{Binding cH}" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="3" Keyboard="Numeric" />
+                <!--Pal-->
+                <Label Text="Activity" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <Button Text="?" Grid.Row="3" Grid.Column="1" Clicked="InfoBtnPal_OC" />
+                <Picker SelectedItem="{Binding cPal}" x:Name="P1PcPal" SelectedIndexChanged="PG1_OSPcPal" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="3"/>
+                <!--Gender-->
+                <Label x:Name="P1LPG" Text="Gender:" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <Button Text="?" Grid.Row="4" Grid.Column="1" Clicked="InfoBtnGender_OC" />
+                <Picker SelectedItem="{Binding cG}" x:Name="P1PG" SelectedIndexChanged="PG1_OSPcG" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="3"/>
+                <!--plan-->
+                <Label x:Name="P1LPP" Text="Plan:" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <Button Text="?" Grid.Row="5" Grid.Column="1" Clicked="InfoBtnPlan2_OC" />
+                <Picker SelectedItem="{Binding cPlan}" x:Name="P1PP" SelectedIndexChanged="PG1_OSPcPlan" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="3"/>
+
+
+                <Label x:Name="P1LD" Text="Start Date" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <DatePicker MinimumDate="05/20/2018"
+                        MaximumDate="12/31/2099"
+                        Date="{Binding cD}"
+                        Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="3"
+                />
+
+
+                <Button Text="Save" TextColor="White" Clicked="PG1_Btn_Save" Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="2"/>
+
+                <Button Text="Cancel"  TextColor="White" Clicked="PG1_Btn_Cancel" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+            </Grid>
+        </Grid>
+    </ContentPage>
+
+    <ContentPage Title="Power training" >
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid BackgroundColor="White" Grid.Row="1" Grid.ColumnSpan="5" Padding="0" >
+                <!--
+                <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" x:Name="2WLP1PN" Text="Plan name:"  TextColor="Aqua" FontSize="24" Margin="5,20,0,0" />
+                <Entry Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3" x:Name="2WP1PN"  FontSize="24" Margin="0,5,0,0" />
+                -->
+                <!--Name-->
+                <Label Text="Name" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+                </Label>
+                <Button Text="?" Grid.Row="0" Grid.Column="1" Clicked="InfoBtnName2_OC" />
+                <Entry Text="{Binding cNam}" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3"/>
+                <!--Weight-->
+                <Label Text="Weight" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+                </Label>
+                <Button Text="?" Grid.Row="1" Grid.Column="1" Clicked="InfoBtnWeight2_OC" />
+                <Entry Text="{Binding cW}" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="3" Keyboard="Numeric" />
+                
+                <!--Height-->
+                <Label Text="Height" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                </Label>
+                <Button Text="?" Grid.Row="2" Grid.Column="1" Clicked="InfoBtnHeight2_OC" />
+                <Entry Text="{Binding cH}" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="3" Keyboard="Numeric" />
+
+                <!--Pal-->
+                <Label Text="Activity" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <Button Text="?" Grid.Row="3" Grid.Column="1" Clicked="InfoBtnPal2_OC" />
+                <Picker SelectedItem="{Binding cPal}" x:Name="P2PcPal" SelectedIndexChanged="PG2_OSPcPal" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="3"/>
+
+                <!--Gender-->
+                <Label x:Name="P2LPG" Text="Gender:" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <Button Text="?" Grid.Row="4" Grid.Column="1" Clicked="InfoBtnGender2_OC" />
+                <Picker SelectedItem="{Binding cG}" x:Name="P2PG" SelectedIndexChanged="PG2_OSPcG" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="3"/>
+
+                <!--plan-->
+                <Label x:Name="P2LPP" Text="Plan:" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <Button Text="?" Grid.Row="5" Grid.Column="1" Clicked="InfoBtnPlan1_OC" />
+                <Picker SelectedItem="{Binding cPlan}" x:Name="P2PP" SelectedIndexChanged="PG2_OSPcPlan" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="3"/>
+
+                <Label x:Name="P2LD" Text="Start Date" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <DatePicker MinimumDate="05/20/2018"
+                        MaximumDate="12/31/2099"
+                        Date="{Binding cD}"
+                        Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="3"
+                />
+                <Label Text="Max deadlift in kg" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2">
+                </Label>
+                <Entry Text="{Binding cDL}" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="3" Keyboard="Numeric" />
+
+                <!--<Label Text="Max squat in kg" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2">
+                </Label>
+                <Entry Text="{Binding cSQT}" Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="3" />
+
+                <Label Text="Max bench in kg" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2">
+                </Label>
+                <Entry Text="{Binding cBNC}" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="3" />-->
+
+
+                <!--
+                <Label x:Name="P2DLL" Text="Deadlift:" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <Picker SelectedItem="{Binding cPlan}" x:Name="P2DL" SelectedIndexChanged="PG2_OSPcDL" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="3"/>
+
+                <Label x:Name="P2SQTL" Text="sqeat:" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <Picker SelectedItem="{Binding cPlan}" x:Name="P2SQT" SelectedIndexChanged="PG2_OSPcSQT" Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="3"/>
+
+                <Label x:Name="P2BNCL" Text="bench:" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <Picker SelectedItem="{Binding cPlan}" x:Name="P2BNC" SelectedIndexChanged="PG2_OSPcBNC" Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="3"/>
+                -->
+
+
+
+                <Button Text="Save" TextColor="White" Clicked="PG2_Btn_Save" Grid.Row="8" Grid.Column="3" Grid.ColumnSpan="2"/>
+
+                <Button Text="Cancel"  TextColor="White" Clicked="PG2_Btn_Cancel" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+
+            </Grid>
+        </Grid>
+    </ContentPage>
+
+
+</TabbedPage>

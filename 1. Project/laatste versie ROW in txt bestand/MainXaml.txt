@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:App1"
+             x:Class="App1.Main">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Current Plans">
+        <ListView x:Name="CPListView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ItemSelected="PG1_CP_IS">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding cNam}"  />
+                    <!--Detail="{Binding cNum}"-->
+                </DataTemplate>
+
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage>
+
+    <ContentPage Title="Exercises">
+        <ContentPage.BindingContext>
+            <local:MainViewModel/>
+        </ContentPage.BindingContext>
+
+        <ListView ItemsSource="{Binding YoutubeI}"
+                  HasUnevenRows="True"
+                  ItemTapped="YTLV_OT">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding YTTitle}"/>
+                            <Button Text="Details"
+                                    IsVisible="False"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage>
+
+
+    <TabbedPage Title="About/FAQ">
+        <ContentPage Title="Disclaimer">
+            <Label Text="The information, products and services available on or through the 
+exercise app come from a variety of third party sources and 
+are not intended to be a substitute for professional or medical advice 
+and must not be taken to be the rendering of professional advice. 
+Your use of the exercise app program and any information available 
+through it is solely at your own risk."
+                   />
+
+        </ContentPage>
+
+
+        <ContentPage Title="About">
+            <Label Text="You can use this app to lose weight or gain muscle. first you need to 
+make a plan, using the + sign at the top-right. you will see a form, 
+at the top you can chose between losing weight and gaining muscle. the 
+selected page is the plan you will follow, then you need to fill in your
+data and save the plan. you will see your plans at current plan, if you
+click on it you will see a agenda of the 10 following days. if you click
+on a day, you will see what you need to do this day. you will see exercises
+you need to do this day, explanation you can find at the exercises page."
+                   />
+        </ContentPage>
+
+        <ContentPage Title="FAQ">
+            <Label Text="There are no FAQ, most questions are answered by the use of the tooltips"/>
+        </ContentPage>
+
+
+    </TabbedPage>
+
+
+</TabbedPage>

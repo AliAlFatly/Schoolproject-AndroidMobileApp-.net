@@ -1,0 +1,148 @@
+C:\Users\aeazh_000\Desktop\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Users\aeazh_000\Desktop\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\App1\App1\App1\obj\Debug\netstandard2.0\App1.csprojResolveAssemblyReference.cache
+C:\Users\aeazh_000\Desktop\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Users\aeazh_000\Desktop\App1\App1\App1\obj\Debug\netstandard2.0\App1.App.xaml.g.cs
+C:\Users\aeazh_000\Desktop\App1\App1\App1\obj\Debug\netstandard2.0\App1.MainPage.xaml.g.cs
+C:\Users\aeazh_000\Desktop\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\aeazh_000\Desktop\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\aeazh_000\Desktop\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page1.xaml.g.cs
+C:\Users\aeazh_000\Desktop\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page2.xaml.g.cs
+C:\Users\aeazh_000\Desktop\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page3.xaml.g.cs
+C:\Users\aeazh_000\Desktop\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page4.xaml.g.cs
+C:\Users\aeazh_000\Desktop\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page5.xaml.g.cs
+C:\Users\aeazh_000\Desktop\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page6.xaml.g.cs
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\obj\Debug\netstandard2.0\App1.csprojResolveAssemblyReference.cache
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\obj\Debug\netstandard2.0\App1.App.xaml.g.cs
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\obj\Debug\netstandard2.0\App1.MainPage.xaml.g.cs
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page1.xaml.g.cs
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page2.xaml.g.cs
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page3.xaml.g.cs
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page4.xaml.g.cs
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page5.xaml.g.cs
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page6.xaml.g.cs
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\per4\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.csprojResolveAssemblyReference.cache
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.App.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.MainPage.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.MasterDetailPage1.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.MasterDetailPage1Detail.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.MasterDetailPage1Master.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page1.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page2.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page3.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page4.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page5.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page6.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\app\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\obj\Debug\netstandard2.0\App1.App.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page2.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page3.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\obj\Debug\netstandard2.0\App1.AddPlan.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\obj\Debug\netstandard2.0\App1.Main.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\obj\Debug\netstandard2.0\App1.csprojResolveAssemblyReference.cache
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\obj\Debug\netstandard2.0\App1.CalendarA.xaml.g.cs
+C:\Users\aeazh_000\Desktop\app\forms\App1\App1\App1\obj\Debug\netstandard2.0\App1.CalendarL.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.csprojResolveAssemblyReference.cache
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.AddPlan.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.App.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.CalendarA.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.CalendarL.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.Main.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page2.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page3.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\versie 13 plan af Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\obj\Debug\netstandard2.0\App1.csprojResolveAssemblyReference.cache
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\obj\Debug\netstandard2.0\App1.AddPlan.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\obj\Debug\netstandard2.0\App1.App.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\obj\Debug\netstandard2.0\App1.CalendarA.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\obj\Debug\netstandard2.0\App1.CalendarL.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\obj\Debug\netstandard2.0\App1.Main.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page2.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page3.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\versie 18 Popup Kin Tiu\App1\App1\App1\obj\Debug\netstandard2.0\App1.PopupView.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\obj\Debug\netstandard2.0\App1.csprojResolveAssemblyReference.cache
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\obj\Debug\netstandard2.0\App1.AddPlan.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\obj\Debug\netstandard2.0\App1.App.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\obj\Debug\netstandard2.0\App1.CalendarA.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\obj\Debug\netstandard2.0\App1.CalendarL.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\obj\Debug\netstandard2.0\App1.Main.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page2.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\obj\Debug\netstandard2.0\App1.Page3.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\obj\Debug\netstandard2.0\App1.PopupView.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\versie 19\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\versie 20 save button Ali\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Users\aeazh_000\Desktop\versie 20 save button Ali\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\versie 20 save button Ali\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\versie 20 save button Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.csprojResolveAssemblyReference.cache
+C:\Users\aeazh_000\Desktop\versie 20 save button Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Users\aeazh_000\Desktop\versie 20 save button Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.AddPlan.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 20 save button Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.App.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 20 save button Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.CalendarA.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 20 save button Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.Main.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 20 save button Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.PopupView.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 20 save button Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\aeazh_000\Desktop\versie 20 save button Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\aeazh_000\Desktop\versie 20 save button Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\versie 20 save button Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\versie 20 save button fix Ali\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Users\aeazh_000\Desktop\versie 20 save button fix Ali\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\versie 20 save button fix Ali\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\versie 20 save button fix Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Users\aeazh_000\Desktop\versie 20 save button fix Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.AddPlan.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 20 save button fix Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.App.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 20 save button fix Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.CalendarA.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 20 save button fix Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.Main.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 20 save button fix Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.PopupView.xaml.g.cs
+C:\Users\aeazh_000\Desktop\versie 20 save button fix Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\aeazh_000\Desktop\versie 20 save button fix Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\aeazh_000\Desktop\versie 20 save button fix Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Users\aeazh_000\Desktop\versie 20 save button fix Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+C:\Users\aeazh_000\Desktop\versie 20 save button fix Ali\App1\App1\App1\obj\Debug\netstandard2.0\App1.csprojResolveAssemblyReference.cache

@@ -1,0 +1,83 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Plugin.Share;
+using System.Collections.ObjectModel;
+
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+using App1.DATA;
+using App1.Models_data_;
+using App1;
+
+namespace App1
+{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Main : TabbedPage
+    {
+        public Main ()
+        {
+            InitializeComponent();
+            this.Title = "Exercise App";
+
+            YT pullup = new YT
+            {
+                YTLink = "d8t6hGWoZNw",
+                YTTitle = "Pullup example"
+            };
+            YT deadlift = new YT
+            {
+                YTLink = "hFameePgVH8",
+                YTTitle = "Deadlift example"
+            };
+            YT benchPress = new YT
+            {
+                YTLink = "KsetEPNBEeg",
+                YTTitle = "Bench press example"
+            };
+            YT crunches = new YT
+            {
+                YTLink = "_M2Etme-tfE&t=1s",
+                YTTitle = "Crunches example"
+            };
+
+            var toolbarItem = new ToolbarItem
+            {
+                Text = "+",
+
+            };
+            toolbarItem.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new AddPlan() { BindingContext = new CP() });
+            };
+
+            ToolbarItems.Add(toolbarItem);
+        }
+
+        protected async override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            CPListView.ItemsSource = await App.Database.GetCPAsync();
+        }
+
+        private void YTLV_OT(object sender, ItemTappedEventArgs itemTappedEventArgs)
+        {
+            var youtubeItem = itemTappedEventArgs.Item as YT;
+            CrossShare.Current.OpenBrowser("http://www.youtube.com/watch?v=" + youtubeItem?.YTLink);
+
+        }
+
+
+        async void PG1_CP_IS(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        {
+            
+            if (e.SelectedItem != null )
+            {
+                await Navigation.PushAsync(new CalendarA(e.SelectedItem as CP) { BindingContext = e.SelectedItem as CP });
+            }
+        }
+    }
+}

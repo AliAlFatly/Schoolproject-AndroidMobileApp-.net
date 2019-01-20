@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+
+using Android.App;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+using App1.DATA;
+using App1.Droid.DATA;
+using Xamarin.Forms;
+using SQLite;
+
+
+[assembly : Dependency(typeof(SQLite_Android))]
+namespace App1.Droid.DATA
+{
+    public class SQLite_Android : DSQLite
+    {
+        //    public SQLite_Android() { }
+        //    public SQLite.SQLiteConnection GetConnection()
+        //    {
+        //        var sqliteFileName = "TestDB.db3";
+        //        string documentsPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+        //        var path = Path.Combine(documentsPath, sqliteFileName);
+        //        var conn = new SQLite.SQLiteConnection(path);
+
+        //        return conn;
+        //    }
+
+        //}
+        public string GetLocalFilePath(string fileName)
+        {
+            string docFolder = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            string libFolder = Path.Combine(docFolder, "..", "Library", "Databases");
+            if (!Directory.Exists(libFolder))
+            {
+                Directory.CreateDirectory(libFolder);
+            }
+            return Path.Combine(libFolder, fileName);
+
+        }
+    }
+}

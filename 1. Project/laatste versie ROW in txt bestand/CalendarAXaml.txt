@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.CalendarA">
+    <!--Pages can be added as references or inline-->
+
+    <ContentPage Title="Calendar">
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid BackgroundColor="White" Grid.Row="0" Grid.Column="0" Grid.RowSpan="7" Grid.ColumnSpan="6" Padding="5" Margin="0">
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid BackgroundColor="White" Grid.Row="0" Grid.ColumnSpan="7" Padding="0" Margin="0">
+
+                        <Button x:Name="kbtn1" TextColor="White" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="1" Clicked="Btn1_C" />
+                        <Button x:Name="kbtn2" TextColor="White" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="1" Clicked="Btn2_C" />
+                        <Button x:Name="kbtn3" TextColor="White" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="1" Clicked="Btn3_C" />
+                        <Button x:Name="kbtn4" TextColor="White" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="1" Clicked="Btn4_C" />
+                        <Button x:Name="kbtn5" TextColor="White" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="1" Clicked="Btn5_C" />
+
+                        <Button x:Name="kbtn6" TextColor="White" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1" Clicked="Btn6_C" />
+                        <Button x:Name="kbtn7" TextColor="White" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1" Clicked="Btn7_C" />
+                        <Button x:Name="kbtn8" TextColor="White" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="1" Clicked="Btn8_C" />
+                        <Button x:Name="kbtn9" TextColor="White" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="1" Clicked="Btn9_C"  />
+                        <Button x:Name="kbtn10" TextColor="White" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="1" Clicked="Btn10_C" />
+
+                        <Label Text="6:00 t/m 10:00 uur:" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" />
+                        <Label x:Name="KL1" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="3" />
+                        <Label x:Name="KL2" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="3" />
+
+                        <Label Text="10:00 t/m 16:00 uur:" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" />
+                        <Label x:Name="KL3" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="3" />
+                        <Label x:Name="KL4" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="3" />
+
+
+                        <Label Text="16:00 t/m 22:00 uur:" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" />
+                        <Label x:Name="KL5" Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="3" />
+                        <Label x:Name="KL6" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="3" />
+
+                    </Grid>
+                </Grid>
+
+            </Grid>
+        </Grid>
+
+
+
+        <!--
+        <StackLayout Grid.Row="2" Grid.Column="0" Grid.RowSpan="5" Grid.ColumnSpan="7">
+            
+        </StackLayout>
+          -->
+
+    </ContentPage>
+
+    <ContentPage x:Name="PPAGE" >
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid BackgroundColor="White" Grid.Row="1" Grid.ColumnSpan="5" Padding="0" >
+                <!--
+                <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" x:Name="2WLP1PN" Text="Plan name:"  TextColor="Aqua" FontSize="24" Margin="5,20,0,0" />
+                <Entry Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3" x:Name="2WP1PN"  FontSize="24" Margin="0,5,0,0" />
+                -->
+                <!--Name-->
+                <Label Text="Name" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+                </Label>
+                <Button Text="?" Grid.Row="0" Grid.Column="1" Clicked="InfoBtnName_OC" />
+                <Entry Text="{Binding cNam}" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3"/>
+                
+                <!--Weight-->
+                <Label Text="Weight" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+                </Label>
+                <Button Text="?" Grid.Row="1" Grid.Column="1" Clicked="InfoBtnWeight_OC" />
+                <Entry Text="{Binding cW}" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="3" Keyboard="Numeric" />
+                
+                <!--Height-->
+                <Label Text="Height" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                </Label>
+                <Button Text="?" Grid.Row="2" Grid.Column="1" Clicked="InfoBtnHeight_OC" />
+                <Entry Text="{Binding cH}" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="3" Keyboard="Numeric" />
+                
+                <!--Pal-->
+                <Label Text="Activity" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <Button Text="?" Grid.Row="3" Grid.Column="1" Clicked="InfoBtnPal_OC" />
+                <Picker SelectedItem="{Binding cPal}" x:Name="P2PcPal" SelectedIndexChanged="PG2_OSPcPal" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="3"/>
+                
+                <!--Gender-->
+                <Label x:Name="P2LPG" Text="Gender:" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <Button Text="?" Grid.Row="4" Grid.Column="1" Clicked="InfoBtnGender_OC" />
+                <Picker SelectedItem="{Binding cG}" x:Name="P2PG" SelectedIndexChanged="PG2_OSPcG" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="3"/>
+                <!--plan-->
+                <Label x:Name="P2LPP" Text="Plan:" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <Picker SelectedItem="{Binding cPlan}" x:Name="P2PP" SelectedIndexChanged="PG2_OSPcPlan" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="3"/>
+
+                <Label x:Name="P2LD" Text="Start Date" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <DatePicker MinimumDate="05/20/2018"
+                        MaximumDate="12/31/2099"
+                        Date="{Binding cD}"
+                        Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="3"
+                />
+
+
+                <Button Text="Delete" TextColor="White" Clicked="PG2_Btn_Delete" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+                <Button Text="Save" TextColor="White" Clicked="PG2_Btn_Save" Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="2"/>
+
+                <!--
+                <Label x:Name="P2C" TextColor="White" BackgroundColor="Green" Grid.Row="9" />
+                -->
+            </Grid>
+
+
+
+
+        </Grid>
+    </ContentPage>
+
+
+
+</TabbedPage>
